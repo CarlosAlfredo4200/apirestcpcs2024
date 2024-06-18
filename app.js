@@ -9,6 +9,7 @@ const studentRoutes = require('./routes/studentRoutes');
 
 require('dotenv').config(); // Cargar variables de entorno
 
+
 const app = express();
 const port = process.env.PORT || 3000;
 
